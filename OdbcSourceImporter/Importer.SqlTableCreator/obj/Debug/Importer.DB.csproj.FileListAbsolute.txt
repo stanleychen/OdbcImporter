@@ -1,0 +1,4 @@
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\bin\Debug\Importer.DB.dll
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\bin\Debug\Importer.DB.pdb
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\obj\Debug\Importer.DB.dll
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\obj\Debug\Importer.DB.pdb

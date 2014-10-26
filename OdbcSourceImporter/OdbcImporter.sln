@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importer.DataLoader", "Importer.SqlTableCreator\Importer.DataLoader.csproj", "{1EF59437-92C4-4DFD-863A-119EBDC7948B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImporterTest", "ImporterTest\ImporterTest.csproj", "{81840B1E-F32B-4654-94AD-B02046666ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EF59437-92C4-4DFD-863A-119EBDC7948B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF59437-92C4-4DFD-863A-119EBDC7948B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF59437-92C4-4DFD-863A-119EBDC7948B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF59437-92C4-4DFD-863A-119EBDC7948B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81840B1E-F32B-4654-94AD-B02046666ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81840B1E-F32B-4654-94AD-B02046666ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81840B1E-F32B-4654-94AD-B02046666ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81840B1E-F32B-4654-94AD-B02046666ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

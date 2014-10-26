@@ -1,0 +1,5 @@
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\bin\Debug\Importer.DataLoader.dll
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\bin\Debug\Importer.DataLoader.pdb
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\obj\Debug\Importer.DataLoader.dll
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\obj\Debug\Importer.DataLoader.pdb
+C:\Users\schen\documents\visual studio 2012\Projects\WindowsFormsApplication1\Importer.SqlTableCreator\obj\Debug\Importer.DataLoader.csprojResolveAssemblyReference.cache

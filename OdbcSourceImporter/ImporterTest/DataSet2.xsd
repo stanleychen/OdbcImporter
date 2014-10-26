@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApplication1.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="active_callsTableAdapter" GeneratorDataComponentClassName="active_callsTableAdapter" Name="active_calls" UserDataComponentName="active_callsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `main_off`, `reported`, `rep_time`, `inc_type`, `location`, `incid_num` FROM `active_calls`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="main_off" DataSetColumn="main_off" />
+              <Mapping SourceColumn="reported" DataSetColumn="reported" />
+              <Mapping SourceColumn="rep_time" DataSetColumn="rep_time" />
+              <Mapping SourceColumn="inc_type" DataSetColumn="inc_type" />
+              <Mapping SourceColumn="location" DataSetColumn="location" />
+              <Mapping SourceColumn="incid_num" DataSetColumn="incid_num" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="active_calls" msprop:Generator_TableClassName="active_callsDataTable" msprop:Generator_TableVarName="tableactive_calls" msprop:Generator_TablePropName="active_calls" msprop:Generator_RowDeletingName="active_callsRowDeleting" msprop:Generator_RowChangingName="active_callsRowChanging" msprop:Generator_RowEvHandlerName="active_callsRowChangeEventHandler" msprop:Generator_RowDeletedName="active_callsRowDeleted" msprop:Generator_UserTableName="active_calls" msprop:Generator_RowChangedName="active_callsRowChanged" msprop:Generator_RowEvArgName="active_callsRowChangeEvent" msprop:Generator_RowClassName="active_callsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="main_off" msprop:Generator_ColumnVarNameInTable="columnmain_off" msprop:Generator_ColumnPropNameInRow="main_off" msprop:Generator_ColumnPropNameInTable="main_offColumn" msprop:Generator_UserColumnName="main_off">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reported" msprop:Generator_ColumnVarNameInTable="columnreported" msprop:Generator_ColumnPropNameInRow="reported" msprop:Generator_ColumnPropNameInTable="reportedColumn" msprop:Generator_UserColumnName="reported" type="xs:dateTime" />
+              <xs:element name="rep_time" msprop:Generator_ColumnVarNameInTable="columnrep_time" msprop:Generator_ColumnPropNameInRow="rep_time" msprop:Generator_ColumnPropNameInTable="rep_timeColumn" msprop:Generator_UserColumnName="rep_time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="inc_type" msprop:Generator_ColumnVarNameInTable="columninc_type" msprop:Generator_ColumnPropNameInRow="inc_type" msprop:Generator_ColumnPropNameInTable="inc_typeColumn" msprop:Generator_UserColumnName="inc_type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="location" msprop:Generator_ColumnVarNameInTable="columnlocation" msprop:Generator_ColumnPropNameInRow="location" msprop:Generator_ColumnPropNameInTable="locationColumn" msprop:Generator_UserColumnName="location">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="incid_num" msprop:Generator_ColumnVarNameInTable="columnincid_num" msprop:Generator_ColumnPropNameInRow="incid_num" msprop:Generator_ColumnPropNameInTable="incid_numColumn" msprop:Generator_UserColumnName="incid_num" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
